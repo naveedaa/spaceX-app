@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin: 5vh 4vh;
+    color: ivory;
+    letter-spacing: 1px;
+    font-family: serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4vh;
+    color: ivory;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color:rgba(68, 12, 68, 0.5);
+}
+.Date, .Rocket{
+    background-color:  rgb(109, 24, 109) !important;
+    color: white !important;
+    padding: 18px !important;
+}
+.smallHeading{
+    padding: 2px;
+    font-size: 19px;    
+}
+
+.smallHeading:hover {
+    background-color: rgb(68, 12, 68);
+}
+
+.btn {
+    margin: 5vh 5vh;
+    padding: 2vh 5vh;
+    border: 1px solid white;
+    border-radius: 5px;;
+    color: white;
+    background-color: rgb(68, 12, 68);
+
+}
+
+.red{
+    color:red !important;
+    font-family: 'Acme', sans-serif !important;
+    font-size: 20px !important;
+}
+.green{
+    color: #229954 !important;
+    font-family: 'Acme', sans-serif !important;
+    font-size: 20px !important;
+}
+.gray{
+    color: #c0c0c0 !important;
+    font-weight: bolder !important;
+    font-size: 20px !important;
+}

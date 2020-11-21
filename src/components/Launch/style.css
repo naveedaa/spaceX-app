@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.DatesLaunch{
+    display: flex;
+    justify-content: space-between;
+    color: white !important;
+}
+.redLaunch{
+    color: rgb(231, 61, 61);
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif !important;
+}
+.greenLaunch{
+    color: #419641;
+    font-family: 'Acme', sans-serif !important;
+}
+.grayLaunch{
+    color: #c0c0c0;
+    font-weight: bolder;
+    font-family: 'Acme', sans-serif !important;
+}
+
+.upcomingLaunch{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px !important;
+    margin-top: 7px;
+}
+.launch{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rootLaunch{
+        width: 100%;
+        margin: 10px;
+        background-color: rgb(109, 24, 109) !important;
+        border: 1px solid rgb(109, 24, 109);
+}
+
+.ButtonLaunch{
+    text-decoration-line: none;
+}

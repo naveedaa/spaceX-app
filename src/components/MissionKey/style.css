@@ -1,0 +1,35 @@
+.missionKey {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 40%;
+    margin-top: 3vh;
+}
+
+.key {
+    margin-left: 3vh;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.success {
+    border: 2px solid green; 
+    background-color: green;
+    padding: 1px 15px 1px 20px;
+    margin-left: 3vh;
+}
+
+.danger {
+   background-color: red;
+   border: 2px solid red; 
+   color: white;
+   padding: 1px 15px 1px 20px;
+   margin-left: 3vh;
+}
+
+.primary {
+    border: 2px solid gray; 
+    background-color: gray;
+    padding: 1px 15px 1px 20px;
+    margin-left: 3vh;
+}
